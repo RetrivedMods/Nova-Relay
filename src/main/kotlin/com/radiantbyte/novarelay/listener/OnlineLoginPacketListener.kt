@@ -36,7 +36,7 @@ class OnlineLoginPacketListener(
                     println("Successfully refreshed session for: ${fullBedrockSession.mcChain.displayName}")
                 } catch (e: Exception) {
                     println("Failed to refresh session: ${e.message}")
-                    novaRelaySession.server.disconnect("Your session has expired and could not be refreshed. Please re-login in the Nova Client.")
+                    novaRelaySession.server.disconnect("Your session has expired and could not be refreshed. Please re-login in the LuxClient.")
                     return true
                 }
             }

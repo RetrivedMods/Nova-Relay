@@ -35,10 +35,10 @@ class NovaRelay(
             .gameType("Survival")
             .version(DefaultCodec.minecraftVersion)
             .protocolVersion(DefaultCodec.protocolVersion)
-            .motd("NovaRelay")
+            .motd("LuxClient")
             .playerCount(0)
             .maximumPlayerCount(20)
-            .subMotd("Nova Relay")
+            .subMotd("Best Hacked Client MCPE")
             .nintendoLimited(false)
 
     }
